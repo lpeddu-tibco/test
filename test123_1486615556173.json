@@ -1,0 +1,23 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "test123",
+    "x-lastModified": "Feb 08, 2017 20:43PM PST"
+  },
+  "paths": {
+    "/aa": {
+      "post": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": []
+      }
+    }
+  }
+}
