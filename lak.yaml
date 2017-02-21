@@ -1,0 +1,24 @@
+info:
+  title: spectest
+  version: v1
+  x-lastModified: Feb 19, 2017 11:22AM PST
+paths:
+  /aa:
+    get:
+      parameters: []
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success response
+          schema:
+            type: string
+  /gg:
+    post:
+      parameters: []
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Success response
+swagger: "2.0"
