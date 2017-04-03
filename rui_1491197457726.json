@@ -1,0 +1,42 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "rui",
+    "x-lastModified": "Mar 30, 2017 11:12AM PST"
+  },
+  "paths": {
+    "/pet": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/GiveNewSchemaNameHere"
+            },
+            "examples": {
+              "application/json": {
+                "nodejs": "test"
+              }
+            }
+          }
+        },
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {
+    "GiveNewSchemaNameHere": {
+      "type": "object",
+      "properties": {
+        "nodejs": {
+          "type": "string",
+          "default": "test"
+        }
+      }
+    }
+  }
+}
