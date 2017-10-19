@@ -14,7 +14,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     },
     "version": "1.0.0",
-    "x-lastModified": "Feb 14, 2017 21:27PM PST"
+    "x-lastModified": "Oct 19, 2017 10:42AM PST"
   },
   "host": "api.tibcocdc.com",
   "schemes": [
@@ -434,10 +434,11 @@
               }
             }
           }
-        }
+        },
+        "summary": "No summary element"
       },
       "get": {
-        "summary": "",
+        "summary": "No summary",
         "description": "No summary",
         "operationId": "noTags",
         "consumes": [
@@ -600,7 +601,8 @@
         ],
         "consumes": [
           "application/x-www-form-urlencoded"
-        ]
+        ],
+        "operationId": "postOptions"
       },
       "put": {
         "produces": [
@@ -624,7 +626,8 @@
         ],
         "consumes": [
           "multipart/form-data"
-        ]
+        ],
+        "operationId": "putOptions"
       }
     },
     "/head": {
@@ -805,7 +808,8 @@
             "description": "Success response"
           }
         },
-        "parameters": []
+        "parameters": [],
+        "operationId": "getEe"
       }
     },
     "/aa/aa/aa/aaaaaaaaaaaaaaaaaa/aaaaa": {
@@ -818,7 +822,8 @@
             "description": "Success response"
           }
         },
-        "parameters": []
+        "parameters": [],
+        "operationId": "getAaAaAaAaaaaaaaaaaaaaaaaaAaaaa"
       }
     }
   },
